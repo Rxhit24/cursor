@@ -33,7 +33,7 @@ const appRouter = createBrowserRouter([
         ],
     },
     {
-        path:'getstarted',
+        path:'/getstarted',
         element: <GetStarted />
     }
 ]);
