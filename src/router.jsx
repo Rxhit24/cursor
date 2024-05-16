@@ -9,7 +9,7 @@ import GetStarted from "./components/GetStarted"
 
 const appRouter = createBrowserRouter([
     {
-        path: "/",
+        path: "/cursor/",
         element: <App />,
         errorElement: <Error />,
         children: [
