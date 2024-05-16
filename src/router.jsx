@@ -9,24 +9,24 @@ import GetStarted from "./components/GetStarted"
 
 const appRouter = createBrowserRouter([
     {
-        path: "/cursor/",
+        path: "/cursor",
         element: <App />,
         errorElement: <Error />,
         children: [
             {
-                path: "/",
+                path: "/cursor/",
                 element: <HeroSection />,
             },
             {
-                path: "/about",
+                path: "/cursor/about",
                 element: <About />,
             },
             {
-                path: "/contact",
+                path: "/cursor/contact",
                 element: <Contact />,
             },
             {
-                path: "/works",
+                path: "/cursor/works",
                 element: <OurWork />,
             },
             
